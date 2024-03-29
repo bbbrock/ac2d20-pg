@@ -31,7 +31,7 @@
     },
     {
       "name": "ac2d20-pg-items",
-      "label": "Achtung! Cthulhu: PG Items",
+      "label": "Items",
       "path": "packs/ac2d20-pg-items",
       "type": "Item",
       "system": "ac2d20",
@@ -42,7 +42,7 @@
     },
     {
       "name": "ac2d20-pg-talents",
-      "label": "Achtung!Cthulhu: PG Talents",
+      "label": "Talents",
       "path": "packs/ac2d20-pg-talents",
       "type": "Item",
       "system": "ac2d20",
@@ -53,7 +53,7 @@
     },
     {
       "name": "ac2d20-pg-spells",
-      "label": "Achtung! Cthulhu: PG Spells",
+      "label": "Spells",
       "path": "packs/ac2d20-pg-spells",
       "type": "Item",
       "system": "ac2d20",
@@ -64,9 +64,20 @@
     },
     {
       "name": "ac2d20-pg-actors",
-      "label": "Achtung! Cthulhu: PG Actors",
+      "label": "Actors",
       "path": "packs/ac2d20-pg-actors",
       "type": "Actor",
+      "system": "ac2d20",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "ac2d20-pg-tables",
+      "label": "Tables",
+      "path": "packs/ac2d20-pg-tables",
+      "type": "RollTable",
       "system": "ac2d20",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -88,7 +99,8 @@
         "ac2d20-pg-actors",
         "ac2d20-pg-items",
         "ac2d20-pg-spells",
-        "ac2d20-pg-talents"
+        "ac2d20-pg-talents",
+		"ac2d20-pg-tables"
       ]
     }
   ]
