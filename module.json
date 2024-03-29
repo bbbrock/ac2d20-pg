@@ -2,17 +2,18 @@
   "id": "ac2d20-pg",
   "title": "Achtung! Cthulhu: Player's Guide",
   "description": "Player's Guide for the Achtung! Cthulhu 2d20 system.",
-  "manifest": "https://github.com/bbbrock/ac2d20-pg/module.json",
-  "authors": [
-    {
-    "name": "bbbrock91"
-    }
-  ],
+  "manifest": "https://bbbrock.github.io/ac2d20-pg/module.json",
+  "url": "https://github.com/bbbrock/ac2d20-pg",
   "version": "1.0.1",
   "compatibility": {
     "minimum": "11",
     "verified": "11"
   },
+  "authors": [
+    {
+    "name": "bbbrock91"
+    }
+  ],
   "styles": [
       "styles/journals.css"
   ],
