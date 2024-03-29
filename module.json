@@ -3,9 +3,9 @@
   "title": "Achtung! Cthulhu: Player's Guide",
   "description": "Player's Guide for the Achtung! Cthulhu 2d20 system.",
   "url": "https://github.com/bbbrock/ac2d20-pg",
-  "manifest": "https://github.com/bbbrock/ac2d20-pg/releases/download/0.9/module.json",
-  "download": "https://github.com/bbbrock/ac2d20-pg/releases/download/1.0/ac2d20-pg_1.0.zip",
-  "version": "1.0.1",
+  "manifest": "https://github.com/bbbrock/ac2d20-pg/releases/download/1.0.2/module.json",
+  "download": "https://github.com/bbbrock/ac2d20-pg/releases/download/1.0.2/ac2d20-pg_1.0.2.zip",
+  "version": "1.0.2",
   "compatibility": {
     "minimum": "11",
     "verified": "11"
@@ -101,7 +101,7 @@
         "ac2d20-pg-items",
         "ac2d20-pg-spells",
         "ac2d20-pg-talents",
-		"ac2d20-pg-tables"
+		    "ac2d20-pg-tables"
       ]
     }
   ]
