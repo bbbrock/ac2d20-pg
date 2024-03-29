@@ -1,0 +1,94 @@
+{
+  "id": "ac2d20-pg",
+  "title": "Achtung! Cthulhu: Player's Guide",
+  "description": "Player's Guide for the Achtung! Cthulhu 2d20 system.",
+  "manifest": "http://www.theffonline.com/foundry/modules/ac2d20-pg/module.json",
+  "authors": [
+    {
+    "name": "bbbrock91"
+    }
+  ],
+  "version": "1.0.1",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "styles": [
+      "styles/journals.css"
+  ],
+  "packs": [
+    {
+      "name": "ac2d20-pg",
+      "label": "Achtung! Cthulhu: Player's Guide",
+      "path": "packs/ac2d20-pg",
+      "type": "JournalEntry",
+      "system": "ac2d20",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "ac2d20-pg-items",
+      "label": "Achtung! Cthulhu: PG Items",
+      "path": "packs/ac2d20-pg-items",
+      "type": "Item",
+      "system": "ac2d20",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "ac2d20-pg-talents",
+      "label": "Achtung!Cthulhu: PG Talents",
+      "path": "packs/ac2d20-pg-talents",
+      "type": "Item",
+      "system": "ac2d20",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "ac2d20-pg-spells",
+      "label": "Achtung! Cthulhu: PG Spells",
+      "path": "packs/ac2d20-pg-spells",
+      "type": "Item",
+      "system": "ac2d20",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "ac2d20-pg-actors",
+      "label": "Achtung! Cthulhu: PG Actors",
+      "path": "packs/ac2d20-pg-actors",
+      "type": "Actor",
+      "system": "ac2d20",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Achtung Cthulhu Players Guide",
+      "sorting": "m",
+      "color": "#70774b",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "packs": [
+        "ac2d20-pg",
+        "ac2d20-pg-actors",
+        "ac2d20-pg-items",
+        "ac2d20-pg-spells",
+        "ac2d20-pg-talents"
+      ]
+    }
+  ]
+}

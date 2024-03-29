@@ -1,0 +1,87 @@
+.acpgtable, .acpgtablegrid {
+	border:1px solid black;
+	border-collapse:collapse1;
+	font-family:Signika;
+}
+
+.acpgtable caption, .acpgtablegrid caption {
+	padding:5px;
+	background-color:#494e32;
+	color:white;
+	font-size:150%;
+	text-align:left;
+}
+
+.acpgtable td {
+	padding:5px;
+	text-align:left;
+}
+
+.acpgtablegrid td {
+	padding:5px;
+	text-align:center;
+}
+
+.acpgtable th, .acpgtablegrid th {
+	background-color:#000000;
+	font-size:110%;
+	padding:5px;
+	color:white;
+	text-align:center;
+}
+
+.jpnote {
+	background-color:#e2d19e;
+	font-family:Signika;
+	border:0px;
+	padding:5px;
+}
+
+.jpnote caption {
+	padding:5px;
+	background-color:#e2d19e;
+	color:#494e32;
+	font-size:150%;
+	font-weight:bold;
+	text-align:left;
+}
+
+.jpnote tbody {
+	padding:5px;
+}
+
+.npctable {
+	width:95%;
+	padding:5px;
+	border-spacing:3px;
+	border-collapse:none;
+	border:1px solid black;
+}
+
+.npctable td {
+	padding-left:5px !important;
+	padding-bottom:0px;
+	vertical-align:middle;
+}
+
+.npctable h3 {
+	color:#6c9052;
+	border-bottom:none;
+	font-weight:bold;
+	margin:0.5rem 0 0;
+}
+
+.npctable caption {
+	padding:5px;
+	border:1px solid black;
+	text-color:#e2d19e;
+	font-size:150%;
+	font-weight:bold;
+	text-align:left;
+}
+
+.npcattr {
+	background-color:#6c9052;
+	color:#ffffff;
+	font-weight:bold;
+}
